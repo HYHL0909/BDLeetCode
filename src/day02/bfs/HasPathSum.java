@@ -14,7 +14,7 @@ public class HasPathSum {
             ans=ans||hasPathSum(root.right,subsum);
         }
         if(root.left!=null){
-//            要有ans或是两条路只要有一条可以走就能够
+//            要有ans或是两条路只要有一条可以走就可以，这种情况考虑了有两个子节点的情况
             ans=ans||hasPathSum(root.left,subsum);
         }
         return ans;
