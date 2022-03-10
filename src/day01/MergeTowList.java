@@ -30,7 +30,7 @@ public class MergeTowList {
 
 
 }
-class ListNode {
+ class ListNode {
     int val;
     ListNode next;
 
